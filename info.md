@@ -8,11 +8,9 @@ MTR2 Channel -> Pins D6 and D9
 void setup() {
   // Initialize Serial Communication
   Serial.begin(9600);
-  Serial.println("--- Starting STEMROBO MTR1 Pin Sweep Test ---");
+  Serial.println("--- Starting Motor Test ---");
 
-  // Configure all potential motor driver pins as outputs
-  pinMode(3, OUTPUT);
-  pinMode(5, OUTPUT);
+  // Configure motor driver pins as outputs
   pinMode(6, OUTPUT);
   pinMode(9, OUTPUT);
   pinMode(10, OUTPUT);
