@@ -262,3 +262,5 @@ void stopRobot() {
   digitalWrite(MTR2_IN2, LOW);
 }
 ```
+
+All ts is jst for the movement still need the weapon systems.
