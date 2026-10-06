@@ -1,6 +1,7 @@
 ### Code to check for the Motor pins:
 
 MTR1 Channel -> Pins D10 and D11
+
 MTR2 Channel -> Pins D6 and D9
 
 ```C++
