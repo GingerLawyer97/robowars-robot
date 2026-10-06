@@ -1,7 +1,8 @@
 ### Code to check for the Motor pins:
 
-> MTR1 Channel -> Pins D10 and D11
-> MTR2 Channel -> Pins D6 and D9
+MTR1 Channel -> Pins D10 and D11
+
+MTR2 Channel -> Pins D6 and D9
 
 ```C++
 void setup() {
@@ -43,9 +44,11 @@ void stopAll() {
 }
 ```
 
-> Bring TV remote.
-> Check Hex Codes for infrared transmission.
-> Check which pin is connected to the IR sensors.
+Bring TV remote.
+
+Check Hex Codes for infrared transmission.
+
+Check which pin is connected to the IR sensors.
 
 ### Code to check Hex code:
 
